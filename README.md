@@ -15,7 +15,7 @@ You've been given a directory called `data`, inside there is a file called `reci
 The `RecipeOfTheDay` Component renders all the information for the Recipe of the Day on the right side of the app.  It will render all the data about the Recipe of the Day, Grandma's Mashed Potatoes.  As part of that, it will render each ingredient from the recipe as well.
 
 1.  Import the data from `data/recipeOfTheDay.js` into `RecipeIOfTheDay` component.
-2.  This component should have a method called `renderIngredients()`.  This method should render an `Ingredient` component for each ingredient in the recipe!  Use props to pass the ingredient details (i.e. the ingredient name and amount) to each Ingredient component.  Lost?  Remember to look at the examples from todays blog codealong (hint: it involves `.map`).  This method should be called in the `render()` with `{this.renderIngredients()}`.
+2.  This component should have a method called `renderIngredients()`.  This method should render an `Ingredient` component for each ingredient in the recipe! The ingredient `name` and `amount` should be passed to the each `Ingredient` component via props.  Lost?  Remember to look at the examples from todays blog codealong (hint: it involves `.map`).  This method should be called in the `render()` with `{this.renderIngredients()}`.
 3.  The RecipeOfTheDay component should also render the `name` and the `description` from the the data.
 4.  Add in the finishing details:  in the render function add `<h2>` tags for "Recipe Of the Day", "Description", and "Ingredients" in the right spots.  This test can just be typed directly render function, you do not need to use embedded javascript for these tags.
 5.  Add the `RecipeOfTheDay` component to be rendered in the `App.js` component.
