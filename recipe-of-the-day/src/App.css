@@ -1,0 +1,27 @@
+body{
+
+    background-color: blue;
+}
+
+
+.Leding-header {
+    text-align: center
+}
+
+.Recipes {
+    background-color: blanchedalmond
+
+
+}
+
+.ingredient {
+    background-color: gold 
+    darkolivegreen 
+}
+div {
+    caret-color: aqua
+}
+
+h2 {
+    caret-color: antiquewhite
+}

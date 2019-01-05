@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import RecipeOfTheDay from './components/RecipeOfTheDay'
+import Recipes from './components/Recipes';
+
 import './App.css';
 
 class App extends Component {
@@ -6,8 +9,14 @@ class App extends Component {
     return (
       <div className="App">
 
+   
+      <RecipeOfTheDay/>
+      <Recipes/>
+  
+      
+      
       </div>
-    );
+    )
   }
 }
 
